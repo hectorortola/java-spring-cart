@@ -34,5 +34,4 @@ public class Cart {
     public boolean isExpired() {
         return creationTime.plusMinutes(1).isBefore(LocalDateTime.now());
     }
-
 }
