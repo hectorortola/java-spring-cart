@@ -3,7 +3,6 @@ package com.onebox.hector.services;
 import com.onebox.hector.models.Cart;
 import com.onebox.hector.repositories.CartRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -38,4 +37,5 @@ public class CartService {
             return "Error removing cart with ID: " + id;
         }
     }
+
 }
